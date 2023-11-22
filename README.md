@@ -31,24 +31,61 @@ Sum =A’B’Cin + A’BCin’ + ABCin + AB’Cin’ = A ⊕ B ⊕ Cin Carry = A
 
 ### Procedure
 
-Connect the supply (+5V) to the circuit
-Switch ON the main switch
+Connect the supply (+5V) to the circuit.
+
+Switch ON the main switch.
+
 If the output is 1, then the led glows.
 ### 
 Program:
-/*
+```
 Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
-Logic symbol & Truthtable
-RTL realization
+Developed by: SARAVANAN PARTHIBAN VIJAYALAKSHMI
+RegisterNumber:  23002149
+```
+### HALF ADDER
+```
+module halfAdder (A,B,C,S);
+input A,B;
+output S,C;
+xor (S,A,B);
+and (C,A,B);
+endmodule
+```
+### FULL ADDER
+```
+module fullAdder (A,B,Cin,S,Cout);
+input A,B,Cin;
+output S,Cout;
+assign S = ((A^B)^Cin);
+assign carry = ((A&B)|(B&Cin)|(Cin&A));
+endmodule
+```
 
 ### Output:
-### RTL
-### TIMING DIAGRAM
+### HALF ADDER
+![image](https://github.com/SaravananPV3010/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/139754526/382b11f1-ed88-454f-862c-d6f15f6784f4)
 
+### RTL
+![image](https://github.com/SaravananPV3010/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/139754526/35c4287b-b534-4b30-977c-c59afe18f0b1)
+
+### TIMING DIAGRAM
+![image](https://github.com/SaravananPV3010/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/139754526/a5c51b12-424e-46c5-8d9a-cefe9fb7d984)
 
 ### TRUTH TABLE 
+![image](https://github.com/SaravananPV3010/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/139754526/b39d299a-077e-4217-b595-480a941db23f)
+
+### FULL ADDER
+![image](https://github.com/SaravananPV3010/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/139754526/a512a3e3-b141-434d-acad-541380dfb04b)
+
+### RTL
+![image](https://github.com/SaravananPV3010/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/139754526/605ab8af-dbc7-49d4-a178-0f6b3f010074)
+
+### TIMING DIAGRAM
+![image](https://github.com/SaravananPV3010/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/139754526/ddeabd8e-6c35-4b76-8be9-c16df470ce11)
+
+### TRUTH TABLE
+![image](https://github.com/SaravananPV3010/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/139754526/4b49dc51-3457-4557-8c6d-250deddc076f)
 
 ### Result:
+Thus, a half adder and full adder circuit is designed to verify its truth table in Quartus using Verilog programming.
