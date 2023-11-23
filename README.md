@@ -5,9 +5,8 @@
 To design a half adder and full adder circuit and verify its truth table in Quartus using Verilog programming.
 
 ### Equipments Required:
-Hardware – PCs, Cyclone II , USB flasher
-Software – Quartus prime
-Theory
+Hardware – PCs, Cyclone II , USB flasher ; Software – Quartus prime
+### Theory
 Adders are digital circuits that carry out addition of numbers.
 
 ### Half Adder
@@ -36,14 +35,13 @@ Connect the supply (+5V) to the circuit.
 Switch ON the main switch.
 
 If the output is 1, then the led glows.
-### 
-Program:
+### Program:
 ```
 Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
 Developed by: SARAVANAN PARTHIBAN VIJAYALAKSHMI
 RegisterNumber:  23002149
 ```
-### HALF ADDER
+HALF ADDER
 ```
 module halfAdder (A,B,C,S);
 input A,B;
@@ -52,7 +50,7 @@ xor (S,A,B);
 and (C,A,B);
 endmodule
 ```
-### FULL ADDER
+FULL ADDER
 ```
 module fullAdder (A,B,Cin,S,Cout);
 input A,B,Cin;
