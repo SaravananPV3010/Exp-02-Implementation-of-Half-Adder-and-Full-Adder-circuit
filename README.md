@@ -1,7 +1,7 @@
-# Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit
+# Exp-03-Implementation-of-Half-Adder-and-Full-Adder-circuit
 
 # Implementation-of-Half-Adder-and-Full-Adder-circuit
-### AIM:
+### Aim:
 To design a half adder and full adder circuit and verify its truth table in Quartus using Verilog programming.
 
 ### Equipments Required:
@@ -41,7 +41,7 @@ Program to design a half adder and full adder circuit and verify its truth table
 Developed by: SARAVANAN PARTHIBAN VIJAYALAKSHMI
 RegisterNumber:  23002149
 ```
-HALF ADDER
+#### Half Adder
 ```
 module halfAdder (A,B,C,S);
 input A,B;
@@ -50,7 +50,7 @@ xor (S,A,B);
 and (C,A,B);
 endmodule
 ```
-FULL ADDER
+#### Full Adder
 ```
 module fullAdder (A,B,Cin,S,Cout);
 input A,B,Cin;
@@ -61,26 +61,27 @@ endmodule
 ```
 
 ### Output:
-### HALF ADDER:
 
-### RTL
+#### Half Adder:
+
+#### RTL
 ![image](https://github.com/SaravananPV3010/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/139754526/ddfb15b9-a67b-45ab-868b-9bd7ea0a5ab1)
 
-### TIMING DIAGRAM
+#### Timing Diagram
 ![image](https://github.com/SaravananPV3010/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/139754526/a5c51b12-424e-46c5-8d9a-cefe9fb7d984)
 
-### TRUTH TABLE 
+#### Truth Table
 ![image](https://github.com/SaravananPV3010/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/139754526/b39d299a-077e-4217-b595-480a941db23f)
 
-### FULL ADDER:
+#### Full Adder:
 
-### RTL
+#### RTL
 ![image](https://github.com/SaravananPV3010/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/139754526/605ab8af-dbc7-49d4-a178-0f6b3f010074)
 
-### TIMING DIAGRAM
+#### Timing Diagram
 ![image](https://github.com/SaravananPV3010/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/139754526/ddeabd8e-6c35-4b76-8be9-c16df470ce11)
 
-### TRUTH TABLE
+#### Truth Table
 ![image](https://github.com/SaravananPV3010/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/139754526/4b49dc51-3457-4557-8c6d-250deddc076f)
 
 ### Result:
