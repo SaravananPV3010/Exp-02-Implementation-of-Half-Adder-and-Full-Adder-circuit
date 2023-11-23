@@ -61,7 +61,7 @@ endmodule
 ```
 
 ### Output:
-### HALF ADDER
+### HALF ADDER:
 ![image](https://github.com/SaravananPV3010/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/139754526/382b11f1-ed88-454f-862c-d6f15f6784f4)
 
 ### RTL
@@ -73,7 +73,7 @@ endmodule
 ### TRUTH TABLE 
 ![image](https://github.com/SaravananPV3010/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/139754526/b39d299a-077e-4217-b595-480a941db23f)
 
-### FULL ADDER
+### FULL ADDER:
 ![image](https://github.com/SaravananPV3010/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/139754526/a512a3e3-b141-434d-acad-541380dfb04b)
 
 ### RTL
