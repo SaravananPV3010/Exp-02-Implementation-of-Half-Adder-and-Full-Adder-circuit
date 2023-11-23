@@ -29,12 +29,11 @@ Sum =A’B’Cin + A’BCin’ + ABCin + AB’Cin’ = A ⊕ B ⊕ Cin Carry = A
 #### Figure -02 FULL ADDER 
 
 ### Procedure
-
-Connect the supply (+5V) to the circuit.
-
-Switch ON the main switch.
-
-If the output is 1, then the led glows.
+1. Use module projname(input,output) to start the Verilog programmming.
+2. Assign inputs and outputs using the word input and output respectively.
+3. Use defined keywords like wire,assign and required logic gates to represent the boolean expression.
+4. Use each output to represent one for Sum and the other for Carry.
+5. End the verilog program using keyword endmodule.
 ### Program:
 ```
 Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
